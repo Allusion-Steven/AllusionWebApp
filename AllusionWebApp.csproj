@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <UserSecretsId>aspnet-AllusionWebApp-09665AD3-4BB4-469A-A843-75854F56E8FD</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Update="app.db" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="bootstrap" Version="4.6.0" />
+        <PackageReference Include="EntityFramework" Version="6.4.4" />
+        <PackageReference Include="fullcalendar" Version="3.9.0" />
+        <PackageReference Include="jQuery" Version="3.6.0" />
+        <PackageReference Include="jQuery.Fullcalendar" Version="3.9.0" />
+        <PackageReference Include="jQuery.Validation" Version="1.19.3" />
+        <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="5.0.5" />
+        <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.5" />
+        <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="5.0.5" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="5.0.5" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.5" />
+        <PackageReference Include="Moment.js" Version="2.29.1" />
+    </ItemGroup>
+
+</Project>
